@@ -1,0 +1,28 @@
+*{
+    /* border: 1px solid black; */
+   
+}
+
+.text{
+    height: 10px;
+}
+
+.select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    
+
+}
+
+.input1{
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+
+
+

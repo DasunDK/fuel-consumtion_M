@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+
+        <!-- main row start -->
+        <div class="row vh-100">
+
+
+            <!-- header row start -->
+            <div class="row m-0" style="height: 10%;">
+
+                <div class="col-12 d-flex flex-row">
+
+                    <div class="col">
+                        <span>Logo goes here</span>
+                    </div>
+
+                    <div class="col">
+                        <h1 class="text">Fuel bulk</h1>
+                    </div>
+                </div>
+
+            </div>
+            <!-- header row end -->
+
+
+
+
+            <!-- content row start -->
+            <div class="row p-0 m-0" style="height: 90%;">
+
+                <!-- side bar start -->
+                <div class="col-2 p-0 text-center ">
+
+                    <!-- profile iamge  start -->
+                    <div class="col bg-black ">
+
+                        <img src="images/user.png" class="rounded mt-3" alt="..." width="50%">
+
+                        <p class="fw-bold m-0 p-2" style="color: white;">Dasun Kumara</p>
+
+                    </div>
+                    <!-- profile iamge  end -->
+
+
+                    <div class="col-12 ">
+                        <button class="btn btn-light w-100 text-primary ">
+                            Vehicles
+                        </button>
+                    </div>
+
+
+
+
+                    <!-- collapse 1 start -->
+                    <div class="col-12 mt-2 ">
+                        <p class="m-0">
+                            <a class="btn btn-light w-100 text-primary text-start" data-bs-toggle="collapse"
+                                href="#collapseExample1" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-truck-front-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-5-2h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Z" />
+                                </svg>
+                                Trip Records
+                            </a>
+
+                        </p>
+                        <div class="collapse" id="collapseExample1">
+                            <div class="card card-body border-0 p-0">
+                                <div class="col ">
+
+                                    <button class="btn btn-light text-primary w-100 text-center">
+                                        New trip Record
+                                    </button>
+                                    <button class="btn btn-light text-primary w-100 text-center">
+                                        Trip History
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- collapse 1 end -->
+
+
+                    <!-- collapse 2 start -->
+                    <div class="col-12 mt-2 ">
+                        <p class="m-0">
+                            <a class="btn btn-light w-100 text-primary text-start" data-bs-toggle="collapse"
+                                href="#collapseExample2" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-fuel-pump-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1c.564 0 1.034.11 1.412.336.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V2Zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5h-5Z" />
+                                </svg>
+                                Fuel Records
+                            </a>
+
+                        </p>
+                        <div class="collapse  " id="collapseExample2">
+                            <div class="card card-body border-0 p-0  ">
+                                <div class="col ">
+
+                                    <button class="btn btn-light text-primary w-100 text-center">
+                                        New Fuel Record
+                                    </button>
+                                    <button class="btn btn-light text-primary w-100 text-center ">
+                                        Fuel History
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- collapse 2 end -->
+
+
+
+                    <!-- collapse 3 start -->
+                    <div class="col-12 mt-2 ">
+                        <p class="m-0">
+                            <a class="btn btn-light w-100 text-primary text-start" data-bs-toggle="collapse"
+                                href="#collapseExample3" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-wallet-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                    <path
+                                        d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6z" />
+                                </svg>
+                                Maintainance
+                            </a>
+
+                        </p>
+                        <div class="collapse  " id="collapseExample3">
+                            <div class="card card-body border-0 p-0  ">
+                                <div class="col ">
+
+                                    <button class="btn btn-light text-primary w-100 text-center">
+                                        Add New Driver
+                                    </button>
+                                    <button class="btn btn-light text-primary w-100 text-center">
+                                        Add New Vehicle
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- collapse 3 end -->
+
+
+
+
+
+                </div>
+                <!-- side bar end -->
+
+
+
+
+
+
+
+                <!-- content page start -->
+                <div class="col-10 bg-primary p-4 ">
+
+                    <!-- content main row start -->
+                    <div class="row m-0 h-100 bg-light">
+
+                        <div class="col">
+
+
+                             
+                            <!-- content row 1 start -->
+                            <div class="row h-25">
+                            
+                                <h2>History</h2>
+
+                            </div>
+                            <!-- content row 1 end -->
+
+
+
+
+
+
+                            <!-- content row 2 start -->
+                            <div class="row h-50">
+ 
+
+                              <!-- category pack start -->
+                               <div class="col">
+ 
+                                <select class="select w-100" name="" id="">
+                                    <option value="">one</option>
+                                    <option value="">two</option>
+                                    <option value="">three</option>
+                                </select>
+
+                               </div>
+
+                               <div class="col">
+ 
+                                <select class="select  w-100" name="" id="">
+                                    <option value="">one</option>
+                                    <option value="">two</option>
+                                    <option value="">three</option>
+                                </select>
+
+                               </div>
+
+                               <div class="col">
+ 
+                                <select class="select w-100" name="" id="">
+                                    <option value="">one</option>
+                                    <option value="">two</option>
+                                    <option value="">three</option>
+                                </select>
+
+                               </div>
+
+                               <div class="col">
+ 
+                                <select class="select w-100" name="" id="">
+                                    <option value="">one</option>
+                                    <option value="">two</option>
+                                    <option value="">three</option>
+                                </select>
+
+                               </div>
+
+                               <div class="col">
+ 
+                                <select class="select  w-100" name="" id="">
+                                    <option value="">one</option>
+                                    <option value="">two</option>
+                                    <option value="">three</option>
+                                </select>
+
+                               </div>
+                               <!-- category pack end -->
+
+                               <div col-12>
+
+                               <div>
+                                <input class="input1 " type="text" placeholder="Search by name">
+
+                                <button class="btn btn-success w-25 m-5">Search</button>
+                               </div>
+
+
+                              
+
+                               </div>
+
+                            </div>
+                            <!-- content row 2 end -->
+
+
+
+
+
+                            <!-- content row 3 start -->
+                            <div class="row h-25">
+
+
+                            </div>
+                            <!-- content row 3 end -->
+
+
+                        </div>
+
+                        <div class="table-responsive">
+                            <table class="table table-primary">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Column 1</th>
+                                        <th scope="col">Column 2</th>
+                                        <th scope="col">Column 3</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="">
+                                        <td scope="row">R1C1</td>
+                                        <td>R1C2</td>
+                                        <td>R1C3</td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row">Item</td>
+                                        <td>Item</td>
+                                        <td>Item</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+
+
+                    </div>
+                    <!--content main row end -->
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <!-- content page end -->
+
+    </div>
+    <!-- content row end -->
+
+
+    </div>
+    <!-- main row end -->
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
